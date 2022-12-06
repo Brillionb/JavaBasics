@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 public class Variables {
     public static void main(String[] args) {
         byte b1 = 10;
@@ -61,7 +63,7 @@ public class Variables {
     }
 }
 
- class VariablesHomework{
+ class VariablesTaskTime{
      public static void main(String[] args) {
          //представить количество секунд в виде  - дней часов минут секунд
          int second = 186465;
@@ -75,4 +77,48 @@ public class Variables {
          System.out.println(minutes + " минут");
          System.out.println(seconds + " секунд");
      }
+}
+
+class VariablesAssignment {
+    public static void main(String[] args) {
+        long a = 100L;
+        int b = 50;
+
+        long c=b;
+        float d=a;
+        double e = b;
+
+        boolean x = true;
+        boolean y = false;
+        boolean z= true;
+
+        boolean result1 = x && y && z;// логическое И
+        boolean result2 = x || y || z; // логическое ИЛИ
+
+        System.out.println(result2);
+
+        //short circuits
+        //При сравнении && если первое выражение false, то второе даже не будет проверяться (результат false)
+        // При сравнении || если первое выражение true, то второе не будет проверятся (результат true)
+        // Соответственно вторая часть в сравнении даже не будет выполнена, если там есть вычисление
+        int m = 10;
+        int n = 2;
+        int p = 10;
+
+        boolean q = m < n && n++ < p; // инкремент даже не будет выполняться, тк первое выражение уже false
+        System.out.println(q);
+        System.out.println(n);
+
+        // рассмотрим побитовые операции ( & Поразрядное И, | Поразрядное ИЛИ, ^  Поразрядное исключающее ИЛИ
+
+        int aa = 5;
+        int bb = 10;
+        System.out.println(aa & bb); // 0101 & 1010 = 0
+        System.out.println(aa | bb); // 0101 & 1010 = 15
+        System.out.println( aa ^ bb); // - true только тогда, когда только одно из условий true
+
+
+    }
+
+
 }
