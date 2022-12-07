@@ -28,7 +28,7 @@ public class Variables {
         char c3 = 4;
         char c4 = ' ';
 
-        char c5 = 500; //пятисотый знак в системе юникод, записанный в десятичной системе счисления
+        char c5 = 500; //пятисотый знак в таблице ASCII, записанный в десятичной системе счисления
         char c6 = '\u01F4';// так же пятисотый знак в шестнадцатеричной системе
 
         System.out.println(c6);
@@ -119,6 +119,34 @@ class VariablesAssignment {
 
 
     }
+}
 
+class TaskPifagor {
+    public static void main(String[] args) {
+        // решить задачу вычисления гипотенузы треугольника, если известны катеты
+        float a = 4.00f;
+        float b = 4.00f;
+        float c= (float) Math.sqrt(a*a + b*b);
+        System.out.println("Длина гипотенузы равна " + c);
 
+    }
+}
+
+class BooleanCondition {
+    public static void main(String[] args) {
+        //Не используя else выводить на экран действие в зависимости от времени и погоды
+        int time = 10;
+        boolean isNight = time <=5 || time >= 23;
+        boolean isGoodWeather = true;
+
+        if (isNight) {
+            System.out.println("Time to sleep");
+        }
+        if (!isNight && isGoodWeather){
+            System.out.println("Go for a walk");
+        }
+        if (!isNight && !isGoodWeather){
+            System.out.println("Read a book");
+        }
+    }
 }
