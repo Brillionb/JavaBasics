@@ -30,8 +30,8 @@ public class OOP {
 
         Human[] human = {masha, katya, ivan, anton, pavel};
         double averageAge = 0;
-        for (Human i : human){
-            averageAge += i.age/human.length;
+        for (Human somebody : human){
+            averageAge += somebody.age/human.length;
         }
         System.out.println(averageAge);
     }
