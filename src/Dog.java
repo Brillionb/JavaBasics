@@ -1,4 +1,5 @@
 public class Dog {
+    // см демонстрацию работы в классе DogMain
     String name;
     String dogBreed;
     int speed;

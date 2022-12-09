@@ -1,5 +1,6 @@
-public class Methods {
+public class DogMain {
     public static void main(String[] args) {
+        //
         Dog myDog = new Dog();
         myDog.dogBreed = "Золотистый ретривер";
         myDog.name = "Супчик";
@@ -7,6 +8,7 @@ public class Methods {
 
         System.out.println(myDog.info());
         myDog.run();
+
 
     }
 }
