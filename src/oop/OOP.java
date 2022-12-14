@@ -1,3 +1,7 @@
+package oop;
+
+import oop.Human;
+
 public class OOP {
     public static void main(String[] args) {
         Human masha = new Human();

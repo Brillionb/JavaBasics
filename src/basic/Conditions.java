@@ -1,3 +1,5 @@
+package basic;
+
 public class Conditions {
     public static void main(String[] args) {
         //Что купить в зависимости от кол-ва денег. > 500р - пицца, <500 но > 300 - шаурма,

@@ -1,3 +1,5 @@
+package basic;
+
 public class Loops {
     public static void main(String[] args) {
         // цикл while в реальном проекте используется, когда выполняется определенное условие-

@@ -1,3 +1,17 @@
+package oop;
+class BoxMain {
+    public static void main(String[] args) {
+        Box box1 = new Box(10);
+        Box box2 = new Box(25, 25, 25);
+
+        Box box3 = box1.addSizes(box2);
+        System.out.println(box3.volume());
+
+        Box box4 = new Box(box1, box2);
+        System.out.println(box4.volume());
+    }
+}
+
 public class Box {
     private int length;
     private int width;
@@ -38,11 +52,12 @@ public class Box {
         this.height = height;
     }
 
-    int volume() {
+    public int volume() {
+
         return length * width * height;
     }
 
-    Box addSizes(Box box) {
+    public Box addSizes(Box box) {
         Box newBox = new Box();
         newBox.length = this.length + box.length;
         newBox.width = this.width + box.width;
@@ -51,7 +66,7 @@ public class Box {
     }
 
     // метод сравнивает объемы коробок
-    int compare(Box box){
+    public int compare(Box box){
         int result;
         if (this.volume() > box.volume()){
             result = 1;
@@ -62,6 +77,4 @@ public class Box {
         }
        return result;
     }
-
-
 }
