@@ -28,4 +28,14 @@ public class MyMath {
     public static double area(int radius){
         return PI * radius * radius;
     }
+
+    // передача аргументов переменной длины.
+    public static int sum(int... numbers){
+        int sum = 0;
+        for (int i : numbers){
+            sum+=i;
+        }
+        return sum;
+
+    }
 }
