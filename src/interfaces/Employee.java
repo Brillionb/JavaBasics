@@ -14,4 +14,5 @@ public class Employee {
     public void voice(){
         System.out.println(name);
     }
+
 }
