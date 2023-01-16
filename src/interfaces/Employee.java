@@ -10,4 +10,9 @@ public class Employee {
     public String getName() {
         return name;
     }
+
+    public void voice(){
+        System.out.println(name);
+    }
+
 }
