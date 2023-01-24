@@ -9,4 +9,9 @@ public class Cook extends Employee implements Cookable{
     public void cook() {
         System.out.println(super.getName() + " is cooking");
     }
+
+    @Override
+    public void addSpices() {
+        Cookable.super.addSpices();
+    }
 }
