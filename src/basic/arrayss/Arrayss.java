@@ -1,11 +1,26 @@
-package basic;
+package basic.arrayss;
+import java.util.Arrays;
 
-public class Arrays {
+public class Arrayss {
     public static void main(String[] args) {
         // тип[] имяМассива = new тип[размерность]
     //При иниициализации массива при помощи ключевого слова new элементам сразу присваиваются значения по умолчанию
     //если это массив чисел - значение по умолчанию = 0, если массив типа boolean - false,
     // если массив переменных ссылочного типа - null
+
+        int [] array1 = {1, -8, -4, -87, 87, 987, 654};
+        for (int element : array1){
+            System.out.print(element + " ");
+        }
+        System.out.println("");
+        System.out.println(Arrays.binarySearch(array1, -4));
+
+        Arrays.sort(array1);
+        for (int element : array1){
+            System.out.print(element + " ");
+        }
+        System.out.println(Arrays.binarySearch(array1, -4)); // выдает индекс элемента в отсортированном массиве
+
     }
 }
 
