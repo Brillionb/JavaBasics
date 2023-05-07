@@ -1,4 +1,4 @@
-package AnonimousClassesAndInterfaces;
+package oop.AnonimousClassesAndInterfaces;
 
 public class Counter implements Counterable{
     @Override

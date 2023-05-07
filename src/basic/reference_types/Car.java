@@ -1,4 +1,4 @@
-package reference_types;
+package basic.reference_types;
 
 public class Car {
     String color;

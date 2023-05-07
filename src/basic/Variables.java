@@ -1,7 +1,5 @@
 package basic;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class Variables {
     public static void main(String[] args) {
         byte b1 = 10;

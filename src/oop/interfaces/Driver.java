@@ -1,4 +1,4 @@
-package interfaces;
+package oop.interfaces;
 
 public class Driver extends Employee implements Drivable{
     public Driver(String name) {

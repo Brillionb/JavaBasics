@@ -1,4 +1,4 @@
-package AnonimousClassesAndInterfaces;
+package oop.AnonimousClassesAndInterfaces;
 
 public class Director {
     public void force(Counterable counterable, int month){

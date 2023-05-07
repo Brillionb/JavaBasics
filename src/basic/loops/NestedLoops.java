@@ -1,4 +1,4 @@
-package basic;
+package basic.loops;
 
 public class NestedLoops {
     public static void main(String[] args) {

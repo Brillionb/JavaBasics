@@ -1,4 +1,4 @@
-package interfaces;
+package oop.interfaces;
 
 public class Programmer extends Employee implements Programmable{
     public Programmer(String name) {

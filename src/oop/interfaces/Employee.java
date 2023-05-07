@@ -1,4 +1,4 @@
-package interfaces;
+package oop.interfaces;
 
 public class Employee {
     private String name;

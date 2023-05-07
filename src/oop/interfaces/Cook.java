@@ -1,4 +1,4 @@
-package interfaces;
+package oop.interfaces;
 
 public class Cook extends Employee implements Cookable{
     public Cook(String name) {

@@ -1,4 +1,4 @@
-package interfaces;
+package oop.interfaces;
 
 public interface Cookable {
     public void cook();

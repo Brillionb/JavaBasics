@@ -1,4 +1,4 @@
-package interfaces;
+package oop.interfaces;
 
 import java.util.ArrayList;
 
